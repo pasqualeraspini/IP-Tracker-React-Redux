@@ -1,0 +1,63 @@
+form {
+    display: flex;
+    position: relative;
+}
+
+.input-tracker {
+    width: 55rem;
+    padding: 2rem 2.5rem;
+    border: none;
+    color: hsl(0, 0%, 17%);
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 1rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: hsl(0, 0%, 59%);
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    background-color: hsl(0, 0%, 17%);
+    transition: background-color .3s ease;
+    padding: 2.1rem 2.5rem;
+    margin-left: -6.1rem;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background-color: hsl(0, 0%, 25%);
+}
+
+.error {
+    position: absolute;
+    bottom: -2.5rem;
+    left: 0;
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 65%);
+}
+
+@media screen and (max-width: 600px) {
+    .input-tracker {
+        width: 32rem;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 2rem 2.5rem;
+    }
+
+    .btn svg {
+        height: 1.3rem;
+    }
+}
