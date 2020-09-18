@@ -1,6 +1,6 @@
 # IP Tracker with React & Redux
 
-![https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt](preview.jpg)
+!(preview.jpg)
 
 ## How To use
 
@@ -14,10 +14,10 @@
 Your challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible. To get the IP Address locations, you'll be using the [IP Geolocation API by IPify](https://geo.ipify.org/). To generate the map, we recommend using [LeafletJS](https://leafletjs.com/).
 
 ## Tools Used:
-React
-Redux
-Redux Form
-Geolocation API
-LeafletJS
+- React
+- Redux
+- Redux Form
+- Geolocation API
+- LeafletJS
 
 ## [Live Demo](https://ip-tracker-frontend-mentor.vercel.app/)
