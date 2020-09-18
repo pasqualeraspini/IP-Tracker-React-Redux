@@ -45,6 +45,12 @@
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .search-results {
+        max-width: 117rem;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .search-results {
         max-width: 32rem;
