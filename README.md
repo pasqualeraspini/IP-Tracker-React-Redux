@@ -17,6 +17,7 @@ Your challenge is to build out this IP Address Tracker app and get it looking as
 - React
 - Redux
 - Redux Form
+- Axios
 - Geolocation API
 - LeafletJS
 
