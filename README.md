@@ -1,6 +1,6 @@
 # IP Tracker with React & Redux
 
-!(preview.jpg)
+![https://github.com/pasqualeraspini/IP-Tracker-Frontend-Mentor](preview.jpg)
 
 ## How To use
 
